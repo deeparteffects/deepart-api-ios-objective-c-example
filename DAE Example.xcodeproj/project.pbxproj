@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27F7E5F1D6E2519A7E3F8B59 /* libPods-DAE Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791CC051ADE14D458C90B9B1 /* libPods-DAE Example.a */; };
+		E159E74B1F3375AD00F21086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E74A1F3375AD00F21086 /* main.m */; };
+		E159E74E1F3375AD00F21086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E74D1F3375AD00F21086 /* AppDelegate.m */; };
+		E159E7511F3375AD00F21086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E7501F3375AD00F21086 /* ViewController.m */; };
+		E159E7541F3375AD00F21086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E159E7521F3375AD00F21086 /* Main.storyboard */; };
+		E159E7571F3375AD00F21086 /* DAE_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E159E7551F3375AD00F21086 /* DAE_Example.xcdatamodeld */; };
+		E159E7591F3375AD00F21086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E159E7581F3375AD00F21086 /* Assets.xcassets */; };
+		E159E75C1F3375AD00F21086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E159E75A1F3375AD00F21086 /* LaunchScreen.storyboard */; };
+		E159E7731F33775200F21086 /* DAEDeepArtEffectsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E7641F33775200F21086 /* DAEDeepArtEffectsClient.m */; };
+		E159E7741F33775200F21086 /* DAEEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E7661F33775200F21086 /* DAEEmpty.m */; };
+		E159E7751F33775200F21086 /* DAEError.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E7681F33775200F21086 /* DAEError.m */; };
+		E159E7761F33775200F21086 /* DAEResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E76A1F33775200F21086 /* DAEResult.m */; };
+		E159E7771F33775200F21086 /* DAEStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E76C1F33775200F21086 /* DAEStyle.m */; };
+		E159E7781F33775200F21086 /* DAEStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E76E1F33775200F21086 /* DAEStyles.m */; };
+		E159E7791F33775200F21086 /* DAEUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E7701F33775200F21086 /* DAEUploadRequest.m */; };
+		E159E77A1F33775200F21086 /* DAEUploadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E159E7721F33775200F21086 /* DAEUploadResponse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ABD6F2D9564A80B09FA36C2 /* Pods-DAE Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAE Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DAE Example/Pods-DAE Example.debug.xcconfig"; sourceTree = "<group>"; };
+		47B6D336BA3BA1CBD6275658 /* Pods-DAE Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAE Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DAE Example/Pods-DAE Example.release.xcconfig"; sourceTree = "<group>"; };
+		791CC051ADE14D458C90B9B1 /* libPods-DAE Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DAE Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E159E7461F3375AD00F21086 /* DAE Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAE Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E159E74A1F3375AD00F21086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E159E74C1F3375AD00F21086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E159E74D1F3375AD00F21086 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E159E74F1F3375AD00F21086 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E159E7501F3375AD00F21086 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E159E7531F3375AD00F21086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E159E7561F3375AD00F21086 /* DAE_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DAE_Example.xcdatamodel; sourceTree = "<group>"; };
+		E159E7581F3375AD00F21086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E159E75B1F3375AD00F21086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E159E75D1F3375AD00F21086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E159E7631F33775200F21086 /* DAEDeepArtEffectsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAEDeepArtEffectsClient.h; path = "DAE Example/DAEDeepArtEffectsClient.h"; sourceTree = "<group>"; };
+		E159E7641F33775200F21086 /* DAEDeepArtEffectsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAEDeepArtEffectsClient.m; path = "DAE Example/DAEDeepArtEffectsClient.m"; sourceTree = "<group>"; };
+		E159E7651F33775200F21086 /* DAEEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAEEmpty.h; path = "DAE Example/DAEEmpty.h"; sourceTree = "<group>"; };
+		E159E7661F33775200F21086 /* DAEEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAEEmpty.m; path = "DAE Example/DAEEmpty.m"; sourceTree = "<group>"; };
+		E159E7671F33775200F21086 /* DAEError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAEError.h; path = "DAE Example/DAEError.h"; sourceTree = "<group>"; };
+		E159E7681F33775200F21086 /* DAEError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAEError.m; path = "DAE Example/DAEError.m"; sourceTree = "<group>"; };
+		E159E7691F33775200F21086 /* DAEResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAEResult.h; path = "DAE Example/DAEResult.h"; sourceTree = "<group>"; };
+		E159E76A1F33775200F21086 /* DAEResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAEResult.m; path = "DAE Example/DAEResult.m"; sourceTree = "<group>"; };
+		E159E76B1F33775200F21086 /* DAEStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAEStyle.h; path = "DAE Example/DAEStyle.h"; sourceTree = "<group>"; };
+		E159E76C1F33775200F21086 /* DAEStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAEStyle.m; path = "DAE Example/DAEStyle.m"; sourceTree = "<group>"; };
+		E159E76D1F33775200F21086 /* DAEStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAEStyles.h; path = "DAE Example/DAEStyles.h"; sourceTree = "<group>"; };
+		E159E76E1F33775200F21086 /* DAEStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAEStyles.m; path = "DAE Example/DAEStyles.m"; sourceTree = "<group>"; };
+		E159E76F1F33775200F21086 /* DAEUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAEUploadRequest.h; path = "DAE Example/DAEUploadRequest.h"; sourceTree = "<group>"; };
+		E159E7701F33775200F21086 /* DAEUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAEUploadRequest.m; path = "DAE Example/DAEUploadRequest.m"; sourceTree = "<group>"; };
+		E159E7711F33775200F21086 /* DAEUploadResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAEUploadResponse.h; path = "DAE Example/DAEUploadResponse.h"; sourceTree = "<group>"; };
+		E159E7721F33775200F21086 /* DAEUploadResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAEUploadResponse.m; path = "DAE Example/DAEUploadResponse.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E159E7431F3375AD00F21086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F7E5F1D6E2519A7E3F8B59 /* libPods-DAE Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AAE8593C1D3C760E72FE91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ABD6F2D9564A80B09FA36C2 /* Pods-DAE Example.debug.xcconfig */,
+				47B6D336BA3BA1CBD6275658 /* Pods-DAE Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD203E935455FD67DC9FC85D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				791CC051ADE14D458C90B9B1 /* libPods-DAE Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E159E73D1F3375AD00F21086 = {
+			isa = PBXGroup;
+			children = (
+				E159E77B1F33775800F21086 /* DAE Client */,
+				E159E7481F3375AD00F21086 /* DAE Example */,
+				E159E7471F3375AD00F21086 /* Products */,
+				19AAE8593C1D3C760E72FE91 /* Pods */,
+				BD203E935455FD67DC9FC85D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E159E7471F3375AD00F21086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E159E7461F3375AD00F21086 /* DAE Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E159E7481F3375AD00F21086 /* DAE Example */ = {
+			isa = PBXGroup;
+			children = (
+				E159E74C1F3375AD00F21086 /* AppDelegate.h */,
+				E159E74D1F3375AD00F21086 /* AppDelegate.m */,
+				E159E74F1F3375AD00F21086 /* ViewController.h */,
+				E159E7501F3375AD00F21086 /* ViewController.m */,
+				E159E7521F3375AD00F21086 /* Main.storyboard */,
+				E159E7581F3375AD00F21086 /* Assets.xcassets */,
+				E159E75A1F3375AD00F21086 /* LaunchScreen.storyboard */,
+				E159E75D1F3375AD00F21086 /* Info.plist */,
+				E159E7551F3375AD00F21086 /* DAE_Example.xcdatamodeld */,
+				E159E7491F3375AD00F21086 /* Supporting Files */,
+			);
+			path = "DAE Example";
+			sourceTree = "<group>";
+		};
+		E159E7491F3375AD00F21086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E159E74A1F3375AD00F21086 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E159E77B1F33775800F21086 /* DAE Client */ = {
+			isa = PBXGroup;
+			children = (
+				E159E7631F33775200F21086 /* DAEDeepArtEffectsClient.h */,
+				E159E7641F33775200F21086 /* DAEDeepArtEffectsClient.m */,
+				E159E7651F33775200F21086 /* DAEEmpty.h */,
+				E159E7661F33775200F21086 /* DAEEmpty.m */,
+				E159E7671F33775200F21086 /* DAEError.h */,
+				E159E7681F33775200F21086 /* DAEError.m */,
+				E159E7691F33775200F21086 /* DAEResult.h */,
+				E159E76A1F33775200F21086 /* DAEResult.m */,
+				E159E76B1F33775200F21086 /* DAEStyle.h */,
+				E159E76C1F33775200F21086 /* DAEStyle.m */,
+				E159E76D1F33775200F21086 /* DAEStyles.h */,
+				E159E76E1F33775200F21086 /* DAEStyles.m */,
+				E159E76F1F33775200F21086 /* DAEUploadRequest.h */,
+				E159E7701F33775200F21086 /* DAEUploadRequest.m */,
+				E159E7711F33775200F21086 /* DAEUploadResponse.h */,
+				E159E7721F33775200F21086 /* DAEUploadResponse.m */,
+			);
+			name = "DAE Client";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E159E7451F3375AD00F21086 /* DAE Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E159E7601F3375AD00F21086 /* Build configuration list for PBXNativeTarget "DAE Example" */;
+			buildPhases = (
+				8F8168D0B68E90AADCCAFF36 /* [CP] Check Pods Manifest.lock */,
+				E159E7421F3375AD00F21086 /* Sources */,
+				E159E7431F3375AD00F21086 /* Frameworks */,
+				E159E7441F3375AD00F21086 /* Resources */,
+				8C970D51B25F953CC220058A /* [CP] Embed Pods Frameworks */,
+				69E059B37C1620D720E61738 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DAE Example";
+			productName = "DAE Example";
+			productReference = E159E7461F3375AD00F21086 /* DAE Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E159E73E1F3375AD00F21086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Deep Art Effects GmbH";
+				TargetAttributes = {
+					E159E7451F3375AD00F21086 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6EH22R74X4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E159E7411F3375AD00F21086 /* Build configuration list for PBXProject "DAE Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E159E73D1F3375AD00F21086;
+			productRefGroup = E159E7471F3375AD00F21086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E159E7451F3375AD00F21086 /* DAE Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E159E7441F3375AD00F21086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E159E75C1F3375AD00F21086 /* LaunchScreen.storyboard in Resources */,
+				E159E7591F3375AD00F21086 /* Assets.xcassets in Resources */,
+				E159E7541F3375AD00F21086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69E059B37C1620D720E61738 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DAE Example/Pods-DAE Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C970D51B25F953CC220058A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DAE Example/Pods-DAE Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F8168D0B68E90AADCCAFF36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E159E7421F3375AD00F21086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E159E7731F33775200F21086 /* DAEDeepArtEffectsClient.m in Sources */,
+				E159E7511F3375AD00F21086 /* ViewController.m in Sources */,
+				E159E7771F33775200F21086 /* DAEStyle.m in Sources */,
+				E159E7571F3375AD00F21086 /* DAE_Example.xcdatamodeld in Sources */,
+				E159E77A1F33775200F21086 /* DAEUploadResponse.m in Sources */,
+				E159E74E1F3375AD00F21086 /* AppDelegate.m in Sources */,
+				E159E7751F33775200F21086 /* DAEError.m in Sources */,
+				E159E7741F33775200F21086 /* DAEEmpty.m in Sources */,
+				E159E74B1F3375AD00F21086 /* main.m in Sources */,
+				E159E7781F33775200F21086 /* DAEStyles.m in Sources */,
+				E159E7791F33775200F21086 /* DAEUploadRequest.m in Sources */,
+				E159E7761F33775200F21086 /* DAEResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E159E7521F3375AD00F21086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E159E7531F3375AD00F21086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E159E75A1F3375AD00F21086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E159E75B1F3375AD00F21086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E159E75E1F3375AD00F21086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E159E75F1F3375AD00F21086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E159E7611F3375AD00F21086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABD6F2D9564A80B09FA36C2 /* Pods-DAE Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6EH22R74X4;
+				INFOPLIST_FILE = "DAE Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deeparteffects.examples.ios.objectivec.DAE-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E159E7621F3375AD00F21086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B6D336BA3BA1CBD6275658 /* Pods-DAE Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6EH22R74X4;
+				INFOPLIST_FILE = "DAE Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deeparteffects.examples.ios.objectivec.DAE-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E159E7411F3375AD00F21086 /* Build configuration list for PBXProject "DAE Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E159E75E1F3375AD00F21086 /* Debug */,
+				E159E75F1F3375AD00F21086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E159E7601F3375AD00F21086 /* Build configuration list for PBXNativeTarget "DAE Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E159E7611F3375AD00F21086 /* Debug */,
+				E159E7621F3375AD00F21086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E159E7551F3375AD00F21086 /* DAE_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E159E7561F3375AD00F21086 /* DAE_Example.xcdatamodel */,
+			);
+			currentVersion = E159E7561F3375AD00F21086 /* DAE_Example.xcdatamodel */;
+			path = DAE_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E159E73E1F3375AD00F21086 /* Project object */;
+}
